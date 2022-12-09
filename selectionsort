@@ -1,0 +1,27 @@
+En küçük eleman bulunur ve ilk elemanla yeri değiştirilir. Her adım da bir diğer eleman geçerek aynı işlem sıralama doğru olana kadar uygulanır.
+
+En küçük elemanımız 2 olduğu için ilk eleman ile yeri değiştirilir
+
+1 --22,27,16,2,18,6 
+2 --[2|27,16,22,18,6]
+3 --[2,6|16,22,18,27]
+4 --[2,6,16|22,18,27]
+5 --[2,6,16,18|22,27]
+6 --[2,6,16,18,22,27]
+Sıralama doğru olduğu zaman işlem durur
+
+Sonuç => [2,6,16,18,22,27]
+
+Big O gösterimi
+n(n+1)/2~(n²) = O(n²)
+
+18 sayısı ortada olduğu için Average Casedir
+
+
+[7,3,5,8,2,9,4,15,6]
+Insertion Sort ilk 4 adım
+1 - [2,3,5,8,7,9,4,15,6]
+2 - [2,3,4,8,7,9,5,15,6]
+3 - [2,3,4,5,7,9,8,15,6]
+4 - [2,3,4,5,6,9,8,15,7]
+
